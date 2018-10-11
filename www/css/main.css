@@ -1,0 +1,152 @@
+ html,body{
+     margin:0;
+     background-color:#efefef;
+     font-family:sans-serif;
+     }
+ .wrapper{
+     width:500px;
+     height:640px;
+     padding:5px;
+     margin:auto;
+     background-color:#ddd;
+     }
+ #loginWrapper{
+     position:fixed;
+     top:0;
+     right:0;
+     bottom:0;
+     left:0;
+     background-color:rgba(5,5,5,.6);
+     text-align:center;
+     color:#fff;
+     display:block;
+     padding-top:200px;
+     }
+ #nickWrapper{
+     display:none;
+     }
+ .banner{
+     height:80px;
+     width:100%;
+     }
+ .bannerp{
+     float:left;
+     display:inline-block;
+     }
+ .controls{
+     height:100px;
+     margin:5px 0px;
+     position:relative;
+     }
+ #historyMsg{
+     height:400px;
+     background-color:#fff;
+     overflow:auto;
+     padding:2px;
+     }
+ #historyMsgimg{
+     max-width:99%;
+     }
+ .timespan{
+     color:#ddd;
+     }
+ .items{
+     height:30px;
+     margin: 5px;
+     }
+ #colorStyle{
+     width:50px;
+     border:none;
+     padding:0;
+     }
+ /*自定义文件的输入*/
+ .imageLable{
+     position:relative;
+     }
+ #sendImage{
+     position:absolute;
+     width:52px;
+     left:0;
+     opacity:0;
+     overflow:hidden;
+     }
+ /*定义文件输入结束*/
+ #messageInput{
+     width:440px;
+     max-width:440px;
+     height:96px;
+     max-height:96px;
+     }
+ #sendBtn{
+     width:50px;
+     height:96px;
+     float:right;
+     }
+ #emojiWrapper{
+     display:none;
+     width:500px;
+     bottom:105px;
+     position:absolute;
+     background-color:#aaa;
+     box-shadow:0010px#555;
+     }
+ #emojiWrapperimg{
+     margin:2px;
+     padding:2px;
+     width:25px;
+     height:25px;
+     }
+ #emojiWrapperimg:hover{
+     background-color:blue;
+     }
+.emoji{
+    display:inline;
+    }
+ footer{
+     text-align:center;
+     }
+ input[type="button"]{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+ }
+ input[type="file"]{
+   cursor:pointer;
+ }
+ textarea,
+ input[type="text"],
+ input[type="color"]{
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+ }

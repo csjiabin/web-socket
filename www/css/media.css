@@ -1,0 +1,35 @@
+@media screen and (max-width: 225px){
+	.title {
+        color:gray;
+        text-align: center;
+        }
+     }
+@media screen and (max-width: 480px)and (min-width:225px) {
+	.title {
+        color:red;
+        text-align: center;
+        }
+     }
+@media screen and (max-width:768px) and (min-width:480px) {
+	.title {
+        color:greenyellow;
+        text-align: right
+        }
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+	.title {
+        color:yellow;
+        }
+}
+@media screen and (max-width:1200px) and (min-width:992px) { 
+	.title {
+        color:green;
+        text-align: right
+        }
+}
+@media screen and (min-width: 1200px)  { 
+	.title {
+        color:black;
+        text-align: center
+        }
+}
